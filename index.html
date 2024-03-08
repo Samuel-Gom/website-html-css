@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Full</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <figure class="nav__logo">
+        <img class="nav__img" src="/assets/logo.svg" alt="Logo">
+      </figure>
+
+      <section class="nav__menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Pricing</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Contact</a>
+          </li>
+        </ul>
+  
+        <div class="nav__buttons">
+          <a class="button" href="#">Log in</a>
+          <a class="button button--dark" href="#">Sign up</a>
+        </div>
+      </section>
+      
+      <label class="nav__label" for="icon-menu">
+        <input id="icon-menu" class="nav__checkbox" type="checkbox">
+      </label>
+    </nav>
+
+    <section class="hero__main container">
+      <figure class="hero__figure">
+        <img class="hero__img" src="/assets/moon.svg" alt="Moon Image SVG">
+      </figure>
+
+      <div class="hero__texts">
+        <h1 class="hero__title">Marketing website done with Astro</h1>
+        <p class="hero__paragraph">Astroship is a starter template for startups, marketing websites & landing pages. Built with Astro.build and TailwindCSS. You can quickly create any website with this starter.</p>
+
+        <div class="hero__buttons">
+          <a class="button button--dark button--hero" href="#">
+            <img class="button__icon" src="/assets/download.svg" alt="Icon Download">
+            Download for Free
+          </a>
+          <a class="button button--white button--hero" href="#">
+            <img class="button__icon" src="/assets/logo-github.svg" alt="Icon Github">
+            Github Repo
+          </a>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="main">
+    <section class="about container">
+      <h2 class="about__title">Everything you need to start a website</h2>
+      <p class="about__paragraph">Astro comes batteries included. It takes the best parts of state-of-the-art tools and adds its own innovations.</p>
+      
+      <section class="about__cards">
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="/assets/briefcase.svg" alt="Icon Briefcase">
+          </figure>
+          <div class="card__texts">
+            <h3 class="card__title">Bring Your Own Framework</h3>
+            <p class="card__paragraph">Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="/assets/windows.svg" alt="Icon Windows">
+          </figure>
+          <div class="card__texts">
+            <h3 class="card__title">100% Static HTML, No JS</h3>
+            <p class="card__paragraph">Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="/assets/data.svg" alt="Icon Data">
+          </figure>
+          <div class="card__texts">
+            <h3 class="card__title">On-Demand Components</h3>
+            <p class="card__paragraph">Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="/assets/ghost.svg" alt="Icon Ghost">
+          </figure>
+          <div class="card__texts">
+            <h3 class="card__title">Broad Integration</h3>
+            <p class="card__paragraph">Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="/assets/search.svg" alt="Icon Search">
+          </figure>
+          <div class="card__texts">
+            <h3 class="card__title">SEO Enabled</h3>
+            <p class="card__paragraph">Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <figure class="card__figure">
+            <img class="card__img" src="/assets/person.svg" alt="Icon Person">
+          </figure>
+          <div class="card__texts">
+            <h3 class="card__title">Community</h3>
+            <p class="card__paragraph">Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.</p>
+          </div>
+        </article>
+      </section>
+    </section>
+
+    <section class="technologies container">
+      <h2 class="technologies__title">Works with your technologies</h2>
+      <div class="technologies__logos">
+        <figure class="technologies__figure">
+          <img class="technologies__img" src="/assets/logo-html5.svg" alt="Logo HTML">
+        </figure>
+        <figure class="technologies__figure">
+          <img class="technologies__img" src="/assets/logo-css3.svg" alt="Logo CSS">
+        </figure>
+        <figure class="technologies__figure">
+          <img class="technologies__img" src="/assets/logo-javascript.svg" alt="Logo JS">
+        </figure>
+        <figure class="technologies__figure">
+          <img class="technologies__img" src="/assets/vscode.svg" alt="Logo Visual Studio Code">
+        </figure>
+        <figure class="technologies__figure">
+          <img class="technologies__img" src="/assets/logo-windows.svg" alt="Logo Windows">
+        </figure>
+      </div>
+    </section>
+
+    <section class="get-started container">
+      <h2 class="get-started__title">Build faster websites.</h2>
+      <p class="get-started__paragraph">Pull content from anywhere and serve it fast with Astro's next-gen island architecture.</p>
+      <a class="get-started__cta button button--white" href="#">Get Started</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small class="footer__text">Copyright &copy 2024 Astroship. All rights reserved.</small>
+  </footer>
+</body>
+</html>
