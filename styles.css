@@ -50,7 +50,7 @@ body {
   inset-inline: 0;
   padding: 5%;
   background-color: #fff;
-  box-shadow: 0px 20px 30px -5px rgba(0,0,0,0.5);
+  box-shadow: 0px 30px 30px -20px rgba(0,0,0,0.3);
   opacity: var(--opacity-menu);
   transform: var(--translate-menu);
   pointer-events: var(--pointer-menu);
