@@ -21,14 +21,14 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  --image-menu: url("/assets/menu-outline.svg");
+  --image-menu: url("./assets/menu-outline.svg");
   --opacity-menu: 0;
   --translate-menu: translateY(-100%);
   --pointer-menu: none;
 }
 
 .nav:has(.nav__checkbox:checked) {
-  --image-menu: url("/assets/close-outline.svg");
+  --image-menu: url("./assets/close-outline.svg");
   --opacity-menu : 1;
   --translate-menu: translateY(0);
   --pointer-menu: auto;
